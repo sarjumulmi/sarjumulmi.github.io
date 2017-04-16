@@ -1,0 +1,21 @@
+# Site settings
+title: Regex Quantifiers
+header-img: img/home-bg.png
+email: mulmi.sarju@gmail.com
+copyright_name: sarjumulmi
+description: > # this means to ignore newlines until "baseurl:"
+  An Introduction to Greedy and Lazy Quantifiers in Regex
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  sarjumulmi
+learn_profile: sarjumulmi
+email_username: mulmi.sarju@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
