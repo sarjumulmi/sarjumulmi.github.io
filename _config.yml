@@ -1,10 +1,10 @@
 # Site settings
-title: Regex Quantifiers
+title: Coding Journey
 header-img: img/home-bg.png
 email: mulmi.sarju@gmail.com
 copyright_name: sarjumulmi
 description: > # this means to ignore newlines until "baseurl:"
-  An Introduction to Greedy and Lazy Quantifiers in Regex
+  Ups and downs of learning to Code
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  sarjumulmi
