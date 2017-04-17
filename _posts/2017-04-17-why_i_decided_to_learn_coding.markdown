@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "**Why I decided to LEARN coding**"
-date:   2017-04-17 01:40:38 +0000
+title:  "Why I decided to LEARN coding"
+date:   2017-04-16 21:40:38 -0400
 ---
 
 I am a fulltime civil/structural engineer but for some time now, I've been pursuing my dream to become a developer. I was always fascinated with softwares and the endless possibilities it could bring. Coming from an engineering background, I had a knack for analytical and logical thinking. But with programming, you can see your work come to fruition within a very short period of time. And you can build and test your work on sandboxes before you deploy, a luxury you can't have in my field.
