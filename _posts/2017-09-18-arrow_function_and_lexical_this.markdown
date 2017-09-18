@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arrow Function and (Lexical) *'this'*"
-date:   2017-09-18 20:46:58 +0000
+date:   2017-09-18 16:46:59 -0400
 ---
 
 
@@ -70,7 +70,7 @@ a.	obj5.b()() #=>Value of a is: undefined
 
 **References**:
 > 1.	You Don’t Know Javascript - Kyle Simpson
-> 2.	http://wesbos.com/arrow-functions-this-javascript/ - Wes Bos
+> 2.	[http://wesbos.com/arrow-functions-this-javascript/]http://wesbos.com/arrow-functions-this-javascript/) - Wes Bos
 
 
 
