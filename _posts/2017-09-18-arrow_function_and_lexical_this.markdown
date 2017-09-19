@@ -32,6 +32,7 @@ f.	unbound() #=> Value of a is: undefined
 g.	obj1.c()() #=> Value of a is: undefined
 ```
 Note example 1(g); the nested function returned creates its own environment and hence *'this'* becomes *'window'*.
+
 **Example 2:**
 Now, if we replace *‘b’* with an arrow function: 
 ```
@@ -46,6 +47,7 @@ a.	obj3.b() #=>Value of a is: undefined
 That’s because *‘this’* for *‘b’* is not the callee object *‘obj3’* but the surrounding function/scope for *‘b’* which is *‘window’* in this case. This quirky property of arrow function might come handy when we have to pass *‘this’* to nested functions. As opposed to example 1(g) above, *‘this’* for nested arrow function will look up to the surround scope/function’s *‘this’* rather than create its own *‘this’*. 
 
 For example:
+
 **Example 3:**
 ```
 var obj4 = {a :"inside obj4", b: function(){return ()=>console.log(`Value of a is: ${this.a}`)}}
