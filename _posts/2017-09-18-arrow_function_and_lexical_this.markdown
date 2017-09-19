@@ -31,7 +31,7 @@ e.	var unbound = obj1.b
 f.	unbound() #=> Value of a is: undefined
 g.	obj1.c()() #=> Value of a is: undefined
 ```
-
+Note example 1(g); the nested function returned creates its own environment and hence *'this'* becomes *'window'*.
 **Example 2:**
 Now, if we replace *‘b’* with an arrow function: 
 ```
@@ -69,8 +69,8 @@ a.	obj5.b()() #=>Value of a is: undefined
 ```
 
 **References**:
-> 1.	You Don’t Know Javascript - Kyle Simpson
-> 2.	[http://wesbos.com/arrow-functions-this-javascript/]http://wesbos.com/arrow-functions-this-javascript/) - Wes Bos
+> 1.	[You Don’t Know Javascript](https://github.com/getify/You-Dont-Know-JS) - Kyle Simpson
+> 2.	[http://wesbos.com/arrow-functions-this-javascript/](http://wesbos.com/arrow-functions-this-javascript/) - Wes Bos
 
 
 
