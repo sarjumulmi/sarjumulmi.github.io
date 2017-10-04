@@ -173,7 +173,7 @@ end
 
 All in all, this project exposed me to a host of features and coding best practices that is in-built in Rails as well as external sources. It has definitely made me more confident in the path of being a career web developer.
 
-**Github**: [https://github.com/sarjumulmi/rails-portfolio-survey-app.git](https://github.com/sarjumulmi/rails-portfolio-survey-app.git)
+**GitHub**: [https://github.com/sarjumulmi/rails-portfolio-survey-app.git](https://github.com/sarjumulmi/rails-portfolio-survey-app.git)
 
 
 
