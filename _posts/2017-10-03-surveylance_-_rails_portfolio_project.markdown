@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "SurveyLance - Rails Portfolio Project"
-date:       2017-10-04 01:44:24 +0000
+date:       2017-10-03 21:44:25 -0400
 permalink:  surveylance_-_rails_portfolio_project
 ---
 
@@ -172,6 +172,8 @@ end
 ```
 
 All in all, this project exposed me to a host of features and coding best practices that is in-built in Rails as well as external sources. It has definitely made me more confident in the path of being a career web developer.
+
+**Github**: [https://github.com/sarjumulmi/rails-portfolio-survey-app.git](https://github.com/sarjumulmi/rails-portfolio-survey-app.git)
 
 
 
