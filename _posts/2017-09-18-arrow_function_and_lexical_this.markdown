@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Arrow Function and (Lexical) *'this'*"
-date:   2017-09-18 16:46:59 -0400
+title:      "Arrow Function and (Lexical) 'this'"
+date:       2017-09-18 16:46:59 -0400
+permalink:  arrow_function_and_lexical_this
 ---
 
 
