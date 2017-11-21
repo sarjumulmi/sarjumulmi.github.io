@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Surveylance - Rails App with JS FrontEnd"
-date:       2017-11-20 16:29:01 +0000
+date:       2017-11-20 11:29:02 -0500
 permalink:  surveylance_-_rails_app_with_js_frontend
 ---
 
@@ -131,7 +131,7 @@ The URL is also updated to show the correct survey id using Web API, history.pus
 history.pushState(null, null, this.href)
 ```
 
-One thing that confounded me and go berserk on google was ‘Turbolinks’. I had the ‘Turbolinks’ turned on which, by the way, would make your AJAX requests faster and more efficient. However, it also does not update the links in the DOM upon partial refresh, even with the event delegation in place. So, the link would work as expected the first time, but the second time it’s not loaded in the DOM. The event goes unnoticed and you get a full page reload. The solution was to simply replace the typical `$(document).ready(function (){})` with `$(document).on(‘turbolinks:load’, function (){})` which will force the link to update with each partial refresh.
+One thing that confounded me and go berserk on google was ‘Turbolinks’. I had the ‘Turbolinks’ turned on which, by the way, would make your AJAX requests faster and more efficient. However, it also does not update the links in the DOM upon partial refresh, even with `event.preventDefault()` in place. So, the link would work as expected the first time, but the second time it’s not loaded in the DOM. The event goes unnoticed and you get a full page reload. The solution was to simply replace the typical `$(document).ready(function (){})` with `$(document).on(‘turbolinks:load’, function (){})` which will force the link to update with each partial refresh.
 > References:
 > 
 > [Railscast - Nested Model Form ](http://railscasts.com/episodes/196-nested-model-form-revised?autoplay=true)
