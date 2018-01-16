@@ -99,4 +99,4 @@ export default const PrivateRoute = ({component: Component, isAuthenticated, ...
 ```
 Personally, this has been the most involving but also the most fun project in the curriculum. I really came to admire the design pattern of React and how lightweight and responsive it feels. I look forward to learning more advanced concepts in React JS in future.
 
-**GitHub**: [https://github.com/sarjumulmi/moofie-app](https://github.com/sarjumulmi/moofie-app.git)
+**GitHub**: [https://github.com/sarjumulmi/moofie-app.git](https://github.com/sarjumulmi/moofie-app.git)
