@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Moofie with ReactJS & Rails"
-date:       2018-01-16 15:35:33 +0000
+date:       2018-01-16 10:35:34 -0500
 permalink:  moofie_with_reactjs_and_rails
 ---
 
@@ -99,4 +99,4 @@ export default const PrivateRoute = ({component: Component, isAuthenticated, ...
 ```
 Personally, this has been the most involving but also the most fun project in the curriculum. I really came to admire the design pattern of React and how lightweight and responsive it feels. I look forward to learning more advanced concepts in React JS in future.
 
-**GitHub**: https://github.com/sarjumulmi/moofie-app
+**GitHub**: [https://github.com/sarjumulmi/moofie-app](https://github.com/sarjumulmi/moofie-app)
